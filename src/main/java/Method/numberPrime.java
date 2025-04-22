@@ -2,7 +2,7 @@ package Method;
 
 public class numberPrime {
 
-    public static boolean primeCheck(int n){
+    public static boolean isPrime(int n){
         boolean isPrime=true;
 
         //Optimised Loop
@@ -19,6 +19,6 @@ public class numberPrime {
 
     public static void main(String[] args) {
 
-        System.out.println(primeCheck(5));
+        System.out.println(isPrime(5));
     }
 }
