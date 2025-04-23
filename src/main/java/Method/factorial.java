@@ -7,6 +7,7 @@ public class factorial {
         for(int i=n; i>0; i--){
             f=f*i;
         }
+        //return function value outside of for loop
         return f;
     }
     public static void main(String[] args) {
