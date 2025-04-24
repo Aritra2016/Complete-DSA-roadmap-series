@@ -31,6 +31,6 @@ public class maxOfThree {
 //        System.out.println("Enter the 3rd Number -->  ");
 //        int third= sc1.nextInt();
 
-        findMaxThree(12, 45, 1);
+        findMaxThree(12, 45, 166);
     }
 }
