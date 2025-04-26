@@ -1,6 +1,6 @@
 package Array;
 
-public class delElem {
+public class deleteElem {
 
     public static int delete(int arr[], int key) {
 
