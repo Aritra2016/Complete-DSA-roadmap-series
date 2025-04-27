@@ -2,23 +2,19 @@ package Array;
 
 public class ArrayPair {
 
-public static void printSubArray(int arr[]){
+    public static void pairs(int arr[]){
 
-    //int arr[]= {2,5, 8, 10, 13};
-   for(int st=0; st<arr.length; st++){
-       for(int end=0; end<arr.length; end++){
-           for(int k=st; k<=end; k++){
-               System.out.print( arr[k]+" ");
-           }
-           System.out.println();
-       }
-   }
+        for(int i=0; i< arr.length;i++){
+            int current= arr[i];
+            for(int j=i+1; j< arr.length; j++){
+                System.out.print(" (" +current+","+arr[j]+ ")");
+            }
+            System.out.println();
+        }
+    }
 
-}
     public static void main(String[] args) {
-        int arr[]= {2,5, 8, 10, 13};
-        printSubArray(arr);
-
-
+        int arr[]= {12, 23, 27, 35, 39, 40};
+        pairs(arr);
     }
 }
