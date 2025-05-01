@@ -21,6 +21,7 @@ public class binaToDeci {
     }
     public static void main(String[] args) {
 
+        System.out.println("Let master");
         binToDec(101);
 
     }
